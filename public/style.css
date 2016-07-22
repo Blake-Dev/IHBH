@@ -1,0 +1,46 @@
+/*INDEX*/
+
+
+
+/*END INDEX*/
+
+/*MEALS PAGE*/
+
+#mealsHeader {
+	/*display: inline-block;*/
+}
+
+#addMeal {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+
+#addMealForm {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.option-caps {
+	text-transform: capitalize;
+}
+
+/*END MEALS PAGE*/
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 991px) {
+	#addMeal {
+		top: -55px;
+	}
+}
+
+.tabledata-span {
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	/*color: white;*/
+	/*background-color: #3f3f3f;*/
+}
+
+/*END MEDIA QUERIES*/
