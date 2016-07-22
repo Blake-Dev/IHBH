@@ -24,7 +24,7 @@ if($mysqldate >= 0 && $mysqldate < 12){
 	$time_eaten = "Lunch";
 } else { $time_eaten = "Dinner"; }
 
-echo $mysqldate;
+// echo $mysqldate;
 
 // ENTREE CALORIE QUERY
 
